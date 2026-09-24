@@ -22,7 +22,7 @@ export default function LayersPanel({ shapes, selectedId, onSelect }: LayersPane
                   type="button"
                   onClick={() => onSelect(active ? null : shape.id)}
                   className={`w-full rounded-md px-2 py-1.5 text-left text-sm capitalize transition-colors ${
-                    active ? 'bg-blue-600 text-white' : 'text-neutral-300 hover:bg-neutral-700'
+                    active ? 'bg-neutral-400 text-white' : 'text-neutral-300 hover:bg-neutral-700'
                   }`}
                 >
                   {shape.type}

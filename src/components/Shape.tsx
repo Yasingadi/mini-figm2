@@ -11,7 +11,7 @@ interface ShapeViewProps {
 
 const HANDLE_SIZE = 10
 const HANDLE_OFFSET = 5
-const SELECTION_COLOR = '#0d99ff'
+const SELECTION_COLOR = '#9ca3af'
 
 export default function ShapeView({
   shape,

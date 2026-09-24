@@ -61,7 +61,7 @@ export default function Toolbar({ activeTool, onSelectTool }: ToolbarProps) {
             onClick={() => onSelectTool(tool.id)}
             className={`flex h-9 w-9 items-center justify-center rounded-md transition-colors ${
               active
-                ? 'bg-blue-600 text-white'
+                ? 'bg-neutral-400 text-white'
                 : 'text-neutral-300 hover:bg-neutral-700 hover:text-white'
             }`}
           >
